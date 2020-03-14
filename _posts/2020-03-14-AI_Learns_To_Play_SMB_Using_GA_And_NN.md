@@ -10,7 +10,7 @@ github:
     repository_url: https://github.com/Chrispresso/SuperMarioBros-AI
 ---
 
-Before we dive in, let me just start by saying there are many different ways to have an AI learn an environment. In the last decade huge advancements have been made in this field that address many of the issues faced when creating an AI. In future posts I will get into some of these advancements, but first it's important to understand why they were needed. In this post I'm going to show how to use a genetic algorithm and a neural network to solve Super Mario Bros, and why it's not the best choice to do so. This is going to be a long one. So sit back, relax with your favorite beverage, and ejoy. Hopefully this can whet your appetite for what's to come.
+Before we dive in, let me just start by saying there are many different ways to have an AI learn an environment. In the last decade huge advancements have been made in this field that address many of the issues faced when creating an AI. In future posts I will get into some of these advancements, but first it's important to understand why they were needed. In this post I'm going to show how to use a genetic algorithm and a neural network to solve Super Mario Bros, and why it's not the best choice to do so. This is going to be a long one. So sit back, relax with your favorite beverage, and enjoy. Hopefully this can whet your appetite for what's to come.
 
 ![AI About To Win At SMB](/assets/blogs/2020-03-14/imgs/AI_about_to_win_SMB.png)
 
