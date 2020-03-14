@@ -2,10 +2,11 @@
 layout: post
 title: "AI Learns To Play Super Mario Bros Using A Genetic Algorithm And Neural Network"
 date: 2020-03-14
-image: "https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/153558006-tips-healthy-cat-632x475.jpg"
-reading_time: False
+display_banner: true
+image: "/assets/blogs/2020-03-14/imgs/AI_about_to_win_SMB.png"
+reading_time: false
 github:
-    has_github_link: True
+    has_github_link: true
     repository_url: https://github.com/Chrispresso/SuperMarioBros-AI
 ---
 
