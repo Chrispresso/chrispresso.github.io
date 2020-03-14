@@ -1,1 +1,5 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-feed
+title: Chrispresso - All things programming, all things AI
+permalink: /:categories/:title

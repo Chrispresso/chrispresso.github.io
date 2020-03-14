@@ -1,0 +1,22 @@
+
+
+/* #websiteNavBar a { text-decoration: none; color: #999; } */
+#websiteNavBar a:hover { text-decoration: underline; }
+#websiteNavBar ul { font-size: 1em; list-style: none; font-weight: bold; padding: 0px; }
+#websiteNavBar ul li { display: inline; margin-right: 30px }
+
+footer ul { font-size: 1em; font-family: 'Helvetica', 'Arial', 'Sans-Serif'; padding: 0px; list-style: none; font-weight: bold; }
+footer ul li { display: inline; margin-right: 20px; }
+
+footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+
+/* Blog */
+ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
+ul.posts li { list-style: none; }
+
+.other a { color: #999; }
+.current a { text-decoration: underline; color: red; }
+
+/* get rid of site footer */
+.site-footer { display: none; }
+

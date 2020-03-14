@@ -1,0 +1,15 @@
+---
+layout: enhanced_default
+---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post">
+  {% if page.reading_time %}
+    {% include reading_time.html %}
+  {% endif %}
+
+  {{ content }}
+
+  {% include disqus.html %}
+</div>

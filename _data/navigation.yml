@@ -1,0 +1,12 @@
+- title: Home
+  url: /
+
+- title: Blog
+  url: /blog
+
+- title: Requests
+  url: /requests
+
+- title: YouTube
+  new_tab: True
+  url: https://www.youtube.com/c/chrispresso

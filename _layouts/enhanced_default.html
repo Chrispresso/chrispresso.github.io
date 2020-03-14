@@ -1,0 +1,46 @@
+---
+layout: default
+display_banner: true
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_CHTML'>
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [['$','$'], ['\\(','\\)']],
+                displayMath: [['$$','$$'], ['\[','\]']],
+                processEscapes: true,
+                processEnvironments: true,
+            }
+        });
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/pseudocode@latest/build/pseudocode.min.js">
+    </script>
+  </head>
+
+
+  <body>
+      {% include navigation.html %}
+
+<div class="container">
+
+  {{ content }}
+
+</div>
+  
+  <footer>
+   <ul>
+   <li><a href="mailto:InquisitivePotato@gmail.com">email</a></li>
+   <li><a href="https://github.com/chrispresso">github.com/chrispresso</a></li>
+   </ul>
+  </footer>
+  </body>
+
+</html>

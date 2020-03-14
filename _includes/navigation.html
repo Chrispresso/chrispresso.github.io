@@ -1,0 +1,32 @@
+
+<!-- Find current page-->
+{% for entry in site.data.navigation %}
+{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}
+    {% if fullurl == page.url %}
+        {% assign current_page = fullurl %}
+        {% break %}
+    {% elsif page.layout == "post" and fullurl contains "blog"  %}
+        {% assign current_page = fullurl %}
+        {% break %}
+    {% elsif page.url contains fullurl %}
+        {% assign current_page = fullurl %}
+    {% endif %}
+{% endfor %}
+
+<!-- Then we build the nav bar. -->
+<nav id="websiteNavBar">
+    <ul>
+    {% for entry in site.data.navigation %}
+        {% if entry.url == current_page %}
+            {% assign current = ' class="current"' %}
+        {% else %}
+            {% assign current = ' class="other"' %}
+        {% endif %}
+        {% if entry.new_tab %}
+            <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" target="_blank">{{ entry.title }}</a></li>
+        {% else %}
+            <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</nav>

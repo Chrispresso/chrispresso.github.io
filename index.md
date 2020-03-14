@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+---
+layout: enhanced_default
+display_banner: true
+title: Chrispresso - All things programming, all things AI
+---
+## About
+Hey!
 
-You can use the [editor on GitHub](https://github.com/Chrispresso/chrispresso.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I'm Chris and I'm a Firmware Engineer with a love for engineering, programming and coffee. No, not that drip stuff you find at the gas station. I'm talking espresso - hence the name, Chrispresso. I have a deep interest in Machine Learning (ML), Artificial Intelligence (AI), Python, and how to use programming to solve cool problems.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Chrispresso/chrispresso.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Requests
+Want me to discuss something specific? Curious what programming language to start with? Want to know how to get started with ML/AI? If you have an idea for something you would like to see in a post of mine, let me know [here]({{ site.baseurl }}/requests).
