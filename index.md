@@ -3,6 +3,9 @@ layout: enhanced_default
 display_banner: true
 title: Journey Into AI
 ---
+
+I am currently in the process of transitioning my other [blog](https://chrispresso.coffee/blog/) here.
+
 ## About
 Hey!
 
