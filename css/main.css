@@ -20,3 +20,8 @@ ul.posts li { list-style: none; }
 /* get rid of site footer */
 .site-footer { display: none; }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
