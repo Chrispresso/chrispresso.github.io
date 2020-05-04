@@ -3,3 +3,4 @@ plugins:
   - jekyll-feed
 title: Chrispresso - All things programming, all things AI
 permalink: /:categories/:title
+google_analytics: UA-165415419-1
