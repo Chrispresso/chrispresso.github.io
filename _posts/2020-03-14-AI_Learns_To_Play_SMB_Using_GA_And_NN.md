@@ -10,6 +10,11 @@ github:
     repository_url: https://github.com/Chrispresso/SuperMarioBros-AI
 ---
 
+The video is ready! If you want to see a YouTube video of the different accomplishments of these AI, take a look [here](https://www.youtube.com/watch?v=CI3FRsSAa_U).
+
+<b>Update:</b> These AI were able to complete worlds 1-1, 2-1, 3-1, 4-1, 5-1, 6-1, and 7-1. They were also able to learn to do a <b>walljump</b>, <b>flagpole glitch</b>, and <b>fast acceleration</b>. World 8-1 has not been completed.... yet.
+
+
 Before we dive in, let me just start by saying there are many different ways to have an AI learn an environment. In the last decade huge advancements have been made in this field that address many of the issues faced when creating an AI. In future posts I will get into some of these advancements, but first it's important to understand why they were needed. In this post I'm going to show how to use a genetic algorithm and a neural network to solve Super Mario Bros, and why it's not the best choice to do so. This is going to be a long one. So sit back, relax with your favorite beverage, and enjoy. Hopefully this can whet your appetite for what's to come.
 
 ![AI About To Win At SMB](/assets/blogs/2020-03-14/imgs/AI_about_to_win_SMB.png)
@@ -24,6 +29,7 @@ This is going to be broken into the following sections, so feel free to skip to 
 -  [Generalize Within States](#generalize-within-states)
 -  [Defining a Fitness Function](#defining-a-fitness-function)
 -  [Bringing Everything Together](#bringing-everything-together)
+-  [Seeing it in Action](#seeing-it-in-action)
 -  [Results](#results)
 -  [Limitations of Genetic Algorithms](#limitations-of-genetic-algorithms)
 
@@ -251,6 +257,10 @@ This syntax might seem a bit confusing, especially if you haven't seen much pseu
 For this, $$\phi$$ symbolizes the parameters of the neural network. Remember in the beginning where I said I'm maximizing over 789 parameters? These are those parameters. The genetic algorithm is what changes the parameters, and those parameters are what allow Mario to choose $$action = f(state)$$. Those actions then get Mario a certain distance in the level, which in turn gives a fitness. That fitness allows the genetic algorithm to make changes to the parameters through selection, crossover, and mutation. This is really all the above pseudocode does. See? It's not so bad!
 
 One thing I should mention is I also used a one-hot encoding scheme for Mario's row within the pink box. I tested both with and without the one-hot encoding for the row, but I found it helpful in certain situations. For instance, without it, Mario may see an enemy and jump. If Mario is already above the enemy, then there is no reason to jump. The one-hot encoding for the row helps Mario make these types of decisions. Another thing to realize is that everything within the pink box is an input to Mario's neural network. I'm choosing not to display which input nodes are active because otherwise that would distract from what type of blocks are in each of those locations.
+
+## Seeing it in Action
+Here is an in depth video showcasing all of what Mario was capable of learning. 
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CI3FRsSAa_U" class="center-image" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Results
 
