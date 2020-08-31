@@ -260,7 +260,8 @@ One thing I should mention is I also used a one-hot encoding scheme for Mario's 
 
 ## Seeing it in Action
 Here is an in depth video showcasing all of what Mario was capable of learning. 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=CI3FRsSAa_U" class="center-image" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="747" height="420" src="https://www.youtube.com/embed/CI3FRsSAa_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Results
 
